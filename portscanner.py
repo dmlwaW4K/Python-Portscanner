@@ -50,7 +50,7 @@ def portscanner(host, ports):
             sock.close()
 
 # Ask user for IP address
-host = input("Enter the IP address to scan: ")
+host = input("Enter the website to scan: ")
 
 # Ping the host before scanning ports
 if ping_host(host):
