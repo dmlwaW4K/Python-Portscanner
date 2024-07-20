@@ -55,10 +55,10 @@ host = input("Enter the website to scan: ")
 # Ping the host before scanning ports
 if ping_host(host):
     # Ask user for port number or 'all'
-    port_input = input("Enter the port number to scan (or type 'all' for all ports): ")
+    port_input = input("Enter the port number to scan (or type 'a' for all ports): ")
 
     # Determine which ports to scan based on user input
-    if port_input.lower() == 'all':
+    if port_input.lower() == 'a':
         ports = range(1, 65536)  # Scan all ports from 1 to 65535
     else:
         ports = [int(port_input)]  # Scan the specified port number
