@@ -31,7 +31,7 @@ subprocess for executing system commands
 platform for detecting the operating system
 
 
-How to Use
+**How to Use**
 
 
 Clone the Repository:
